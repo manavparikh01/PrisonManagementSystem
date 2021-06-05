@@ -1,0 +1,81 @@
+/*PMS header*/
+
+.header{
+
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: #008CBA
+}
+
+/*Login header*/
+.header1{
+
+  background-color: white;
+  padding: 50px;
+  text-align: center;
+  font-size: 50px;
+  margin-bottom: 0px;
+  color: #008CBA
+}
+
+
+/* navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+  margin-bottom: 45px;
+}
+
+/* Inside nav bar */
+.topnav a {
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+/* colour for hovering */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Page thats active*/
+.topnav a.active {
+  background-color: #008CBA;
+  color: white;
+}
+
+/* search box inside the nav bar */
+.topnav input[type=texts] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+/* styles the footer */
+ .footer{
+
+   background-color: #008CBA;
+   position: absolute;
+   bottom: 0;
+   width: 98%;
+   text-align: center;
+   font-size: 25px;
+   color: white;
+
+ }
+
+ .footer a.active{
+   color: white;
+
+ }
